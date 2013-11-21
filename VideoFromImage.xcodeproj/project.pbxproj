@@ -21,6 +21,14 @@
 		C5C838C4183D939000E81ED6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C838A6183D938F00E81ED6 /* UIKit.framework */; };
 		C5C838CC183D939000E81ED6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5C838CA183D939000E81ED6 /* InfoPlist.strings */; };
 		C5C838CE183D939000E81ED6 /* VideoFromImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C838CD183D939000E81ED6 /* VideoFromImageTests.m */; };
+		C5C838DB183D93E300E81ED6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C838DA183D93E300E81ED6 /* AVFoundation.framework */; };
+		C5C838DD183D93EA00E81ED6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C838DC183D93EA00E81ED6 /* CoreMedia.framework */; };
+		C5C838DF183D93F100E81ED6 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C838DE183D93F100E81ED6 /* CoreVideo.framework */; };
+		C5C838E1183D9EBE00E81ED6 /* case_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5C838E0183D9EBE00E81ED6 /* case_1.jpg */; };
+		C5C838E6183DAC7600E81ED6 /* case_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5C838E2183DAC7600E81ED6 /* case_2.jpg */; };
+		C5C838E7183DAC7600E81ED6 /* case_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5C838E3183DAC7600E81ED6 /* case_3.jpg */; };
+		C5C838E8183DAC7600E81ED6 /* case_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5C838E4183DAC7600E81ED6 /* case_4.jpg */; };
+		C5C838E9183DAC7600E81ED6 /* case_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5C838E5183DAC7600E81ED6 /* case_5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		C5C838C9183D939000E81ED6 /* VideoFromImageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoFromImageTests-Info.plist"; sourceTree = "<group>"; };
 		C5C838CB183D939000E81ED6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5C838CD183D939000E81ED6 /* VideoFromImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoFromImageTests.m; sourceTree = "<group>"; };
+		C5C838DA183D93E300E81ED6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C5C838DC183D93EA00E81ED6 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C5C838DE183D93F100E81ED6 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C5C838E0183D9EBE00E81ED6 /* case_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = case_1.jpg; sourceTree = "<group>"; };
+		C5C838E2183DAC7600E81ED6 /* case_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = case_2.jpg; sourceTree = "<group>"; };
+		C5C838E3183DAC7600E81ED6 /* case_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = case_3.jpg; sourceTree = "<group>"; };
+		C5C838E4183DAC7600E81ED6 /* case_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = case_4.jpg; sourceTree = "<group>"; };
+		C5C838E5183DAC7600E81ED6 /* case_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = case_5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5C838DF183D93F100E81ED6 /* CoreVideo.framework in Frameworks */,
+				C5C838DD183D93EA00E81ED6 /* CoreMedia.framework in Frameworks */,
+				C5C838DB183D93E300E81ED6 /* AVFoundation.framework in Frameworks */,
 				C5C838A5183D938F00E81ED6 /* CoreGraphics.framework in Frameworks */,
 				C5C838A7183D938F00E81ED6 /* UIKit.framework in Frameworks */,
 				C5C838A3183D938F00E81ED6 /* Foundation.framework in Frameworks */,
@@ -101,6 +120,9 @@
 		C5C838A1183D938F00E81ED6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C5C838DE183D93F100E81ED6 /* CoreVideo.framework */,
+				C5C838DC183D93EA00E81ED6 /* CoreMedia.framework */,
+				C5C838DA183D93E300E81ED6 /* AVFoundation.framework */,
 				C5C838A2183D938F00E81ED6 /* Foundation.framework */,
 				C5C838A4183D938F00E81ED6 /* CoreGraphics.framework */,
 				C5C838A6183D938F00E81ED6 /* UIKit.framework */,
@@ -114,6 +136,11 @@
 			children = (
 				C5C838B1183D938F00E81ED6 /* AppDelegate.h */,
 				C5C838B2183D938F00E81ED6 /* AppDelegate.m */,
+				C5C838E0183D9EBE00E81ED6 /* case_1.jpg */,
+				C5C838E2183DAC7600E81ED6 /* case_2.jpg */,
+				C5C838E3183DAC7600E81ED6 /* case_3.jpg */,
+				C5C838E4183DAC7600E81ED6 /* case_4.jpg */,
+				C5C838E5183DAC7600E81ED6 /* case_5.jpg */,
 				C5C838B4183D938F00E81ED6 /* Main.storyboard */,
 				C5C838B7183D938F00E81ED6 /* ViewController.h */,
 				C5C838B8183D938F00E81ED6 /* ViewController.m */,
@@ -228,9 +255,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5C838E8183DAC7600E81ED6 /* case_4.jpg in Resources */,
+				C5C838E9183DAC7600E81ED6 /* case_5.jpg in Resources */,
 				C5C838BB183D938F00E81ED6 /* Images.xcassets in Resources */,
+				C5C838E1183D9EBE00E81ED6 /* case_1.jpg in Resources */,
 				C5C838AD183D938F00E81ED6 /* InfoPlist.strings in Resources */,
+				C5C838E6183DAC7600E81ED6 /* case_2.jpg in Resources */,
 				C5C838B6183D938F00E81ED6 /* Main.storyboard in Resources */,
+				C5C838E7183DAC7600E81ED6 /* case_3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +341,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -348,7 +380,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
